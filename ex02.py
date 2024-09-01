@@ -3,7 +3,7 @@ def is_fibonacci(num):
     while b < num:
         a, b = b, a + b
         
-num = 21
+num = int(input("Digite um número: "))
 if is_fibonacci(num):
     print(f"O número {num} pertence à sequência de Fibonacci.")
 else:
