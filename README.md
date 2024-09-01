@@ -18,8 +18,7 @@ while (K < INDICE) {
 }
 
 console.log(SOMA);
-
-##Resultado = 91
+Resultado = 91
 
 
 #2) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência.
@@ -30,7 +29,7 @@ def is_fibonacci(num):
     a, b = 0, 1  # Início da sequência de Fibonacci
     while b < num:
         a, b = b, a + b  # Gera o próximo número da sequência
-# Número a ser verificado
+        
 num = 21
 if is_fibonacci(num):
     print(f"O número {num} pertence à sequência de Fibonacci.")
